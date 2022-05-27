@@ -62,6 +62,12 @@ const promptQuestions = ReadmeData => {
             }
         },
         {
+            type: 'list',
+            name: 'license',
+            message: 'Choose a license for your project from the following options.',
+            choices:['GNU GPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT', 'ISC', 'Boost Software License 1.0', 'The Unlicense']
+        },
+        {
             type: 'confirm',
             name: 'confirmContribute',
             message: 'Would you like other developers to contribute to your project?',
@@ -111,9 +117,10 @@ const promptQuestions = ReadmeData => {
                 }
             }
         },
-    ]).then(READdata => {
-        ReadmeData.questions.push(READdata);
-        });
+    ])
+    .then(READdata => {
+    ReadmeData.questions.push(READdata);
+    });
 }; 
 
 // TODO: Create a function to write README file
@@ -135,11 +142,11 @@ function writeToFile (Content) {
 
 // TODO: Create a function to initialize app
 function init() {
-promptQuestions.then(ReadmeData => {
+promptQuestions().then(ReadmeData => {
     return generateMarkdown(ReadmeData);
     })
-    .then(pageMarkdown => {
-        return writeToFile(pageMarkdown);
+    .then(Content => {
+        return writeToFile(Content);
     })
     .catch(err => {
         console.log(err);
