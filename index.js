@@ -5,8 +5,8 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const promptQuestions = ReadmeData => {
-    if (!ReadmeData.questions) {
-        ReadmeData.questions = [];
+    if (!ReadmeData) {
+        ReadmeData = [];
     }
     return inquirer.prompt([
         {
@@ -65,7 +65,7 @@ const promptQuestions = ReadmeData => {
             type: 'list',
             name: 'license',
             message: 'Choose a license for your project from the following options.',
-            choices:['GNU GPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT', 'ISC', 'Boost Software License 1.0', 'The Unlicense']
+            choices: ['GNU GPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT', 'ISC', 'Boost Software License 1.0', 'The Unlicense']
         },
         {
             type: 'confirm',
@@ -77,7 +77,7 @@ const promptQuestions = ReadmeData => {
             type: 'input',
             name: 'contributions',
             message: 'What are the guidelines for another developer to contribute to your project?',
-            when: ({confrimContribute})=>confrimContribute
+            when: ({ confirmContribute }) => confirmContribute
         },
         {
             type: 'confirm',
@@ -89,7 +89,7 @@ const promptQuestions = ReadmeData => {
             type: 'input',
             name: 'tests',
             message: 'Include any necessary tests for your application.',
-            when: ({confrimTest})=>confrimTest
+            when: ({ confirmTest }) => confirmTest
         },
         {
             type: 'input',
@@ -117,16 +117,15 @@ const promptQuestions = ReadmeData => {
                 }
             }
         },
-    ])
-    .then(READdata => {
-    ReadmeData.questions.push(READdata);
-    });
+    ]).then(readcon => {
+        ReadmeData.push(readcon);
+    }); 
 }; 
 
 // TODO: Create a function to write README file
-function writeToFile (Content) {
+function writeToFile (data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README2.md', Content, err => {
+        fs.writeFile('./dist/README2.md', data, err => {
             if (err) {
                 reject(err);
                 return;
@@ -141,16 +140,16 @@ function writeToFile (Content) {
 
 
 // TODO: Create a function to initialize app
-function init() {
-promptQuestions().then(ReadmeData => {
-    return generateMarkdown(ReadmeData);
+// function init() {
+    promptQuestions().then(ReadmeData => {
+        return generateMarkdown(ReadmeData);
     })
-    .then(Content => {
-        return writeToFile(Content);
+    .then(content => {
+        return writeToFile(data);
     })
     .catch(err => {
         console.log(err);
     });
-}
-// Function call to initialize app
-init();
+// }
+// // Function call to initialize app
+// init();
