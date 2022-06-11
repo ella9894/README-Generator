@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![license]https://img.shields.io/badge/license-${license}-yellow)`;
+    return `![license]https://img.shields.io/badge/license-${license}-yellow.svg)`;
   }
    else {
      return '';
@@ -50,37 +50,49 @@ function generateMarkdown(data) {
   ##[${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
 
   ##Description
-  ##${data.description}
+
+  ${data.description}
 
   ##Table of Contents
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Contributing](#contributing)
-    -[Tests](#tests)
-    -[Questions](#questions)
+
+    *[Installation](#installation)
+
+    *[Usage](#usage)
+
+    *[License](#license)
+
+    *[Contributing](#contributing)
+
+    *[Tests](#tests)
+
+    *[Questions](#questions)
 
   ##Installation
-  ${data.installation}
+
+ ${data.installation}
 
   ##Usage
+
   ${data.usage}
 
   ##License
+
   ${renderLicenseSection(data.license)}
 
   ##Contributing
+
   ${data.contributions}
 
   ##Tests
+
   ${data.tests}
 
   ##Questions
-  ###Linked is the github account where this project can be found:[${data.github}](https://github.com/${data.github}).
+
+  Linked is the github account where this project can be found:[${data.github}](https://github.com/${data.github}).
   Please email questions or concerns about any part of this project to:${data.email}.
 `;
     
 };
  
-
 module.exports = generateMarkdown;

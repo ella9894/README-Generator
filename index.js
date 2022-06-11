@@ -128,15 +128,13 @@ function writeToFile(data) {
 
 
 // TODO: Create a function to initialize app
-// function init() {
-    promptQuestions().then(ReadmeData => {
-        return generateMarkdown(ReadmeData); 
+promptQuestions().then(ReadmeData => {
+    console.log('Page created!');
+    return generateMarkdown(ReadmeData); 
     }).then(pageReadme => {
-        return writeToFile(pageReadme);
+    return writeToFile(pageReadme);
     })
     .catch(err => {
-        console.log(err);
+    console.log(err);
     });
-// }
-// // Function call to initialize app
-// init();
+
