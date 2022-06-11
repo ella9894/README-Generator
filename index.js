@@ -5,9 +5,6 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const promptQuestions = ReadmeData => {
-    if (!ReadmeData) {
-        ReadmeData = [];
-    }
     return inquirer.prompt([
         {
             type: 'input',
@@ -107,7 +104,7 @@ const promptQuestions = ReadmeData => {
         {
             type: 'input',
             name: 'email',
-            message: 'Please enter your email address so that you can be reached with questions? (Required)',
+            message: 'Please enter your email address so that you can be reached with questions. (Required)',
             validate: emailInput => {
                 if (emailInput) {
                     return true;
@@ -117,24 +114,15 @@ const promptQuestions = ReadmeData => {
                 }
             }
         },
-    ]).then(readcon => {
-        ReadmeData.push(readcon);
-    }); 
+    ])
 }; 
 
 // TODO: Create a function to write README file
-function writeToFile (data) {
-    return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README2.md', data, err => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve({
-                ok: true,
-                message: 'File created!'
-            });
-        });
+function writeToFile(data) {
+    return fs.writeFile('./dist/README2.md', data, err => {
+        if (err) {
+            console.log(err);
+        }
     });
 };
 
@@ -142,10 +130,9 @@ function writeToFile (data) {
 // TODO: Create a function to initialize app
 // function init() {
     promptQuestions().then(ReadmeData => {
-        return generateMarkdown(ReadmeData);
-    })
-    .then(content => {
-        return writeToFile(data);
+        return generateMarkdown(ReadmeData); 
+    }).then(pageReadme => {
+        return writeToFile(pageReadme);
     })
     .catch(err => {
         console.log(err);

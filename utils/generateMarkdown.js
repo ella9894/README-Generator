@@ -1,21 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === 'GNU AGPLv3') {
-    return
-  } else if (license === 'Mozilla Public License 2.0') {
-    return `(https://img.shields.io/badge/license-GNU%20AGPLv3-yellow)`
-  } else if (license === 'Apache License 2.0') {
-    return `(https://img.shields.io/badge/license-Apache%20License%202.0-orange)`
-  } else if (license === 'MIT') {
-    return `(https://img.shields.io/badge/license-MIT-brightgreen)`
-  } else if (license === 'ISC') {
-    return `(https://img.shields.io/badge/license-ISC-blue)`
-  } else if (license === 'Boost Software License 1.0') {
-    return `(https://img.shields.io/badge/license-Boost%20Software%20License%201.0-red)`
-  } else if (license === 'The Unlicense') {
-    return `(https://img.shields.io/badge/license-The%20Unlicense-blueviolet)`
-  } else {
+  if (license !== 'None') {
+    return `![license]https://img.shields.io/badge/license-${license}-yellow)`;
+  }
+   else {
      return '';
   };
 }
@@ -60,15 +49,16 @@ function generateMarkdown(data) {
 
   ##[${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
 
+  ##Description
   ##${data.description}
 
   ##Table of Contents
-    -[Installation](#Installation)
-    -[Usage](#Usage)
-    -[License](#License)
-    -[Contributing](#Contributing)
-    -[Tests](#Tests)
-    -[Questions](#Questions)
+    -[Installation](#installation)
+    -[Usage](#usage)
+    -[License](#license)
+    -[Contributing](#contributing)
+    -[Tests](#tests)
+    -[Questions](#questions)
 
   ##Installation
   ${data.installation}
@@ -87,7 +77,7 @@ function generateMarkdown(data) {
 
   ##Questions
   ###Linked is the github account where this project can be found:[${data.github}](https://github.com/${data.github}).
-  Please email and questions or concerns about any part of this project to mailto:${data.email}.
+  Please email questions or concerns about any part of this project to:${data.email}.
 `;
     
 };
