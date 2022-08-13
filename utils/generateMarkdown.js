@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+  ## ${renderLicenseBadge(data.license)}(${renderLicenseLink(data.license)})
 
   ## Description
 
@@ -87,8 +87,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  - Linked is the github account where this project can be found: [${data.github}](https://github.com/${data.github}).
-  - Please email questions or concerns about any part of this project to: ${data.email}.
+  Linked is the github account where this project can be found: [${data.github}](https://github.com/${data.github}).
+  
+  Please email questions or concerns about any part of this project to: ${data.email}.
 `;
 }
 

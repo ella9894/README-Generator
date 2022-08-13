@@ -1,11 +1,11 @@
 
   # README
 
-  ## [![license](https://img.shields.io/badge/license-GNU GPLv3-yellow)]()
+  ## ![license](https://img.shields.io/badge/license-GNUGPLv3-yellow)()
 
   ## Description
 
-  lorem
+  l
 
   ## Table of Contents
 
@@ -23,15 +23,15 @@
 
   ## Installation
 
-  lorem
+  l
 
   ## Usage
 
-  lorem
+  l
 
   ## License
 
-  Licensed under the [GNU GPLv3]() license.
+  Licensed under the [GNUGPLv3]() license.
 
   ## Contributing
 
@@ -43,5 +43,6 @@
 
   ## Questions
 
-  - Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
-  - Please email questions or concerns about any part of this project to: lorem.
+  Linked is the github account where this project can be found: [l](https://github.com/l).
+  
+  Please email questions or concerns about any part of this project to: l.
