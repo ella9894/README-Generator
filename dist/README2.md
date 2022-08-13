@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## [https://img.shields.io/badge/license-ISC-yellow.svg](https://spdx.org/licenses/ISC.html)
+  ## [(https://img.shields.io/badge/license-ISC-yellow.svg)](https://spdx.org/licenses/ISC.html)
 
   ## Description
 
