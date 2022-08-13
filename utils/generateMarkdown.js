@@ -11,19 +11,19 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === "GNU AGPLv3") {
+  if (license === "GNUAGPLv3") {
     return `https://spdx.org/licenses/AGPL-3.0-or-later.html`;
-  } else if (license === "Mozilla Public License 2.0") {
+  } else if (license === "MozillaPublicLicense2.0") {
     return `https://spdx.org/licenses/MPL-2.0.html`;
-  } else if (license === "Apache License 2.0") {
+  } else if (license === "ApacheLicense2.0") {
     return `https://spdx.org/licenses/Apache-2.0.html`;
   } else if (license === "MIT") {
     return `https://spdx.org/licenses/MIT.html`;
   } else if (license === "ISC") {
     return `https://spdx.org/licenses/ISC.html`;
-  } else if (license === "Boost Software License 1.0") {
+  } else if (license === "BoostSoftwareLicense1.0") {
     return `https://spdx.org/licenses/BSL-1.0.html`;
-  } else if (license === "The Unlicense") {
+  } else if (license === "TheUnlicense") {
     return `https://spdx.org/licenses/Unlicense.html`;
   } else {
     return "";
@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## ${renderLicenseBadge(data.license)}(${renderLicenseLink(data.license)})
+  ## [${renderLicenseBadge(data.license)}]${renderLicenseLink(data.license)}
 
   ## Description
 
@@ -53,17 +53,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    - [Installation](#installation)
+    - [Installation](#Installation)
 
-    - [Usage](#usage)
+    - [Usage](#Usage)
 
-    - [License](#license)
+    - [License](#License)
 
-    - [Contributing](#contributing)
+    - [Contributing](#Contributing)
 
-    - [Tests](#tests)
+    - [Tests](#Tests)
 
-    - [Questions](#questions)
+    - [Questions](#Questions)
 
   ## Installation
 

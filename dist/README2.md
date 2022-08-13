@@ -1,37 +1,37 @@
 
   # README
 
-  ## ![license](https://img.shields.io/badge/license-GNUGPLv3-yellow)()
+  ## [![license](https://img.shields.io/badge/license-MozillaPublicLicense2.0-yellow)]https://spdx.org/licenses/MPL-2.0.html
 
   ## Description
 
-  l
+  lorem
 
   ## Table of Contents
 
-    - [Installation](#installation)
+    - [Installation](#Installation)
 
-    - [Usage](#usage)
+    - [Usage](#Usage)
 
-    - [License](#license)
+    - [License](#License)
 
-    - [Contributing](#contributing)
+    - [Contributing](#Contributing)
 
-    - [Tests](#tests)
+    - [Tests](#Tests)
 
-    - [Questions](#questions)
+    - [Questions](#Questions)
 
   ## Installation
 
-  l
+  lorem
 
   ## Usage
 
-  l
+  lorem
 
   ## License
 
-  Licensed under the [GNUGPLv3]() license.
+  Licensed under the [MozillaPublicLicense2.0](https://spdx.org/licenses/MPL-2.0.html) license.
 
   ## Contributing
 
@@ -43,6 +43,6 @@
 
   ## Questions
 
-  Linked is the github account where this project can be found: [l](https://github.com/l).
+  Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
   
-  Please email questions or concerns about any part of this project to: l.
+  Please email questions or concerns about any part of this project to: lorem@gmail.com.
