@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## ![license]https://img.shields.io/badge/license-Boost Software License 1.0-yellow.svg)(https://spdx.org/licenses/BSL-1.0.html)
+  ## ![license](https://img.shields.io/badge/license-Apache License 2.0-yellow.svg)
 
   ## Description
 
@@ -31,15 +31,15 @@
 
   ## License
 
-  Licensed under the [Boost Software License 1.0](https://spdx.org/licenses/BSL-1.0.html) license.
+  Licensed under the [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html) license.
 
   ## Contributing
 
-  undefined
+  lorem ipsum
 
   ## Tests
 
-  
+  lorem ipsum
 
   ## Questions
 
