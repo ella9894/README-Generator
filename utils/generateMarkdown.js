@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![license](https://img.shields.io/badge/license-${license}-yellow)`;
+    return `[![license](https://img.shields.io/badge/license-${license}-yellow)]`;
   } else {
     return "";
   }
@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+  ## ${renderLicenseBadge(data.license)}(${renderLicenseLink(data.license)})
 
   ## Description
 
