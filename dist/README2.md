@@ -1,11 +1,11 @@
 
-  # README Generator
+  # README GENERATOR
 
-  ## [![license](https://img.shields.io/badge/license-Apache License 2.0-yellow.svg)]((https://spdx.org/licenses/Apache-2.0.html))
+  ## ![license](https://img.shields.io/badge/license-GNU GPLv3-yellow.svg)()
 
   ## Description
 
-  Lorem Ipsum
+  Lorem ipsum
 
   ## Table of Contents
 
@@ -23,23 +23,23 @@
 
   ## Installation
 
-  Lorem Ipsum
+  lorem ipsum
 
   ## Usage
 
-  Lorem Ipsum
+  lorem ipsum
 
   ## License
 
-  Licensed under the [Apache License 2.0]((https://spdx.org/licenses/Apache-2.0.html)) license.
+  Licensed under the [GNU GPLv3]() license.
 
   ## Contributing
 
-  Lorem Ipsum
+  lorem ipsum
 
   ## Tests
 
-  lorem ipsum
+  lorem impsum
 
   ## Questions
 

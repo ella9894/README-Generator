@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+  ## ${renderLicenseBadge(data.license)}(${renderLicenseLink(data.license)})
 
   ## Description
 
