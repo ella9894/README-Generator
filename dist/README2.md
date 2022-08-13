@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## [(https://img.shields.io/badge/license-MIT-yellow.svg)](https://spdx.org/licenses/MIT.html)
+  ## [https://img.shields.io/badge/license-ISC-yellow.svg](https://spdx.org/licenses/ISC.html)
 
   ## Description
 
@@ -31,7 +31,7 @@
 
   ## License
 
-  Licensed under the [MIT](https://spdx.org/licenses/MIT.html) license.
+  Licensed under the [ISC](https://spdx.org/licenses/ISC.html) license.
 
   ## Contributing
 
