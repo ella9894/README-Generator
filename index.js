@@ -62,7 +62,7 @@ const promptQuestions = ReadmeData => {
             type: 'list',
             name: 'license',
             message: 'Choose a license for your project from the following options.',
-            choices: ['GNUGPLv3', 'MozillaPublicLicense2.0', 'ApacheLicense2.0', 'MIT', 'ISC', 'BoostSoftwareLicense 1.0', 'TheUnlicense']
+            choices: ['GNU_GPLv3', 'Mozilla_Public_License_2.0', 'Apache_License2.0', 'MIT', 'ISC', 'Boost_Software_License_1.0', 'The_Unlicense']
         },
         {
             type: 'confirm',

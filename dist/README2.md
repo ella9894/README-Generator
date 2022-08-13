@@ -1,7 +1,7 @@
 
   # README
 
-  ## [![license](https://img.shields.io/badge/license-MozillaPublicLicense2.0-yellow)]https://spdx.org/licenses/MPL-2.0.html
+  ## [![license](https://img.shields.io/badge/license-GNU_GPLv3-yellow)]()
 
   ## Description
 
@@ -31,15 +31,15 @@
 
   ## License
 
-  Licensed under the [MozillaPublicLicense2.0](https://spdx.org/licenses/MPL-2.0.html) license.
+  Licensed under the [GNU_GPLv3]() license.
 
   ## Contributing
 
-  undefined
+  lorem
 
   ## Tests
 
-  undefined
+  lorem
 
   ## Questions
 
