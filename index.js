@@ -74,7 +74,15 @@ const promptQuestions = ReadmeData => {
             type: 'input',
             name: 'contributions',
             message: 'What are the guidelines for another developer to contribute to your project?',
-            when: ({ confirmContribute }) => confirmContribute
+            when: ({ confirmContribute }) => confirmContribute,
+            validate: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log('You need to include contribution guidelines for your project!');
+                    return false;
+                }
+            }
         },
         {
             type: 'confirm',
@@ -86,7 +94,15 @@ const promptQuestions = ReadmeData => {
             type: 'input',
             name: 'tests',
             message: 'Include any necessary tests for your application.',
-            when: ({ confirmTest }) => confirmTest
+            when: ({ confirmTest }) => confirmTest,
+            validate: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log('You need to include tests for your project!');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',

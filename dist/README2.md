@@ -1,11 +1,11 @@
 
-  # README
+  # README Generator
 
-  ## [![license](https://img.shields.io/badge/license-Boost_Software_License_1.0-yellow)](https://spdx.org/licenses/BSL-1.0.html)
+  ## [![license](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-yellow)](https://spdx.org/licenses/MPL-2.0.html)
 
   ## Description
 
-  lorem
+  Lorem ipsum
 
   ## Table of Contents
 
@@ -23,26 +23,26 @@
 
   ## Installation
 
-  lorem
+  Lorem Ipsum
 
   ## Usage
 
-  lorem
+  Lorem ipsum
 
   ## License
 
-  Licensed under the [Boost_Software_License_1.0](https://spdx.org/licenses/BSL-1.0.html) license.
+  Licensed under the [Mozilla_Public_License_2.0](https://spdx.org/licenses/MPL-2.0.html) license.
 
   ## Contributing
 
-  undefined
+  Lorem ipsum
 
   ## Tests
 
-  undefined
+  Lorem ipsum
 
   ## Questions
 
-  Linked is the github account where this project can be found: [lorem](https://github.com/lorem).
+  Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
   
-  Please email questions or concerns about any part of this project to: lorem.
+  Please email questions or concerns about any part of this project to: good@gmail.com.
