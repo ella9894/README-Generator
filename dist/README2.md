@@ -1,11 +1,11 @@
 
   # README Generator
 
-  ## (https://img.shields.io/badge/license-MIT-yellow)
+  ## [(https://img.shields.io/badge/license-GNU GPLv3-yellow)]
 
   ## Description
 
-  lorem ipsum
+  lore
 
   ## Table of Contents
 
@@ -23,25 +23,25 @@
 
   ## Installation
 
-  lorem ipsum
+  lorem
 
   ## Usage
 
-  lorem ipsum
+  lorem
 
   ## License
 
-  Licensed under the [MIT](https://spdx.org/licenses/MIT.html) license.
+  Licensed under the [GNU GPLv3]() license.
 
   ## Contributing
 
-  lorem ipsum
+  undefined
 
   ## Tests
 
-  lorem ipsum
+  lorem
 
   ## Questions
 
-  Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
-  Please email questions or concerns about any part of this project to: gab@gmail.com.
+  Linked is the github account where this project can be found: [lorem](https://github.com/lorem).
+  Please email questions or concerns about any part of this project to: lorem@gmail.com.
