@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## ![license](https://img.shields.io/badge/license-Apache License 2.0-yellow.svg)
+  ## [(https://img.shields.io/badge/license-MIT-yellow.svg)]
 
   ## Description
 
@@ -31,7 +31,7 @@
 
   ## License
 
-  Licensed under the [Apache License 2.0](https://spdx.org/licenses/Apache-2.0.html) license.
+  Licensed under the [MIT](https://spdx.org/licenses/MIT.html) license.
 
   ## Contributing
 
