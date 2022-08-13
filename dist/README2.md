@@ -1,11 +1,11 @@
 
-  # README Generator
+  #README Generator
 
-  ##[![license]https://img.shields.io/badge/license-MIT-yellow.svg)]((https://spdx.org/licenses/MIT.html))
+  ##[![license]https://img.shields.io/badge/license-Mozilla Public License 2.0-yellow.svg)]((https://spdx.org/licenses/MPL-2.0.html))
 
   ##Description
 
-  Lorem ipsum dolor sit amet consecteur adipiscing elit. Dicta consequatarr possimus maxime, labore provident enim tempore quaerat repudiandae rem cupiditate doloremque quod molestiae modi voluptatem quia animi non facilis dolorem.
+  Lorem Ipsum
 
   ##Table of Contents
 
@@ -23,25 +23,25 @@
 
   ##Installation
 
- Installation lorem ipsum dolor sit amet consecteur adipiscing elit. Dicta consequatar possimus maxime, labore provident enim tempore quaerat repudem rem cupid doloremque quod molestine modi voluptatem quia animi non facility dolorem.
+  Lorem Ipsum
 
   ##Usage
 
-Instructions lorem ipsum dolor sit emet consecteur adipiscing elit. Dicta consequatar possimus maxime, labore providere enim tempore quartet repudem rem cupid doloresque quod molestiae modi voluptatem quia animi non facilis dolorem.
+  Lorem Ipsum
 
   ##License
 
-  Licensed under the [MIT]((https://spdx.org/licenses/MIT.html)) license.
+  Licensed under the [Mozilla Public License 2.0]((https://spdx.org/licenses/MPL-2.0.html)) license.
 
   ##Contributing
 
-  Contribute lorem ipsum dolor sit amet consectuar adipiscing elit. Dicta consequatuar possimus maxime, labore providare anim tempore quartet repudem rem cupid doloremque quod molestuae modi voluptatem quia animi non facilis dolorem.
+  undefined
 
   ##Tests
 
-  Test lorem ipsum dolor sit emet consecteur adipiscing elit Dicta consequater possimus maxime, laboureous provideaur anim tempore quartet repudem rem cupid dolormeque quod molestine mode voluptatem quia animi non facility dolorem.
+  Lorem ipsum
 
   ##Questions
 
   Linked is the github account where this project can be found:[ella9894](https://github.com/ella9894).
-  Please email questions or concerns about any part of this project to:gakpo@gmail.com.
+  Please email questions or concerns about any part of this project to:[(h@gmail.com)].
