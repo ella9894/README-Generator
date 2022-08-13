@@ -13,19 +13,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'GNU AGPLv3') {
-    return `(https://spdx.org/licenses/AGPL-3.0-or-later.html)`
+    return `https://spdx.org/licenses/AGPL-3.0-or-later.html`
   } else if (license === 'Mozilla Public License 2.0') {
-    return `(https://spdx.org/licenses/MPL-2.0.html)`
+    return `https://spdx.org/licenses/MPL-2.0.html`
   } else if (license === 'Apache License 2.0') {
-    return `(https://spdx.org/licenses/Apache-2.0.html)`
+    return `https://spdx.org/licenses/Apache-2.0.html`
   } else if (license === 'MIT') {
-    return `(https://spdx.org/licenses/MIT.html)`
+    return `https://spdx.org/licenses/MIT.html`
   } else if (license === 'ISC') {
-    return `(https://spdx.org/licenses/ISC.html)`
+    return `https://spdx.org/licenses/ISC.html`
   } else if (license === 'Boost Software License 1.0') {
     return `(https://spdx.org/licenses/BSL-1.0.html)`
   } else if (license === 'The Unlicense') {
-    return `(https://spdx.org/licenses/Unlicense.html)`
+    return `https://spdx.org/licenses/Unlicense.html`
   } else {
      return '';
   };
