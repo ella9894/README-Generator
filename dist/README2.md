@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## [![license](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-yellow)](https://spdx.org/licenses/MPL-2.0.html)
+  ## [![license](https://img.shields.io/badge/license-Apache_License_2.0-yellow)](https://spdx.org/licenses/Apache-2.0.html)
 
   ## Description
 
@@ -9,21 +9,21 @@
 
   ## Table of Contents
 
-    - [Installation](#Installation)
+  [Installation](#Installation)
 
-    - [Usage](#Usage)
+  [Usage](#Usage)
 
-    - [License](#License)
+  [License](#License)
 
-    - [Contributing](#Contributing)
+  [Contributing](#Contributing)
 
-    - [Tests](#Tests)
+  [Tests](#Tests)
 
-    - [Questions](#Questions)
+  [Questions](#Questions)
 
   ## Installation
 
-  Lorem Ipsum
+  Lorem ipsum
 
   ## Usage
 
@@ -31,11 +31,11 @@
 
   ## License
 
-  Licensed under the [Mozilla_Public_License_2.0](https://spdx.org/licenses/MPL-2.0.html) license.
+  Licensed under the [Apache_License_2.0](https://spdx.org/licenses/Apache-2.0.html) license.
 
   ## Contributing
 
-  Lorem ipsum
+  Loremm
 
   ## Tests
 
