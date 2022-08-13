@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![license](https://img.shields.io/badge/license-${license}-yellow.svg)`;
+    return `https://img.shields.io/badge/license-${license}-yellow.svg`;
   }
    else {
      return '';
@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
   } else if (license === 'ISC') {
     return `https://spdx.org/licenses/ISC.html`
   } else if (license === 'Boost Software License 1.0') {
-    return `(https://spdx.org/licenses/BSL-1.0.html)`
+    return `https://spdx.org/licenses/BSL-1.0.html`
   } else if (license === 'The Unlicense') {
     return `https://spdx.org/licenses/Unlicense.html`
   } else {
@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## ${renderLicenseBadge(data.license)}(${renderLicenseLink(data.license)})
+  ## [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
 
   ## Description
 

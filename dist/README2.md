@@ -1,7 +1,7 @@
 
-  # README GENERATOR
+  # README Generator
 
-  ## ![license](https://img.shields.io/badge/license-GNU GPLv3-yellow.svg)()
+  ## [https://img.shields.io/badge/license-Mozilla Public License 2.0-yellow.svg](https://spdx.org/licenses/MPL-2.0.html)
 
   ## Description
 
@@ -31,7 +31,7 @@
 
   ## License
 
-  Licensed under the [GNU GPLv3]() license.
+  Licensed under the [Mozilla Public License 2.0](https://spdx.org/licenses/MPL-2.0.html) license.
 
   ## Contributing
 
@@ -39,9 +39,9 @@
 
   ## Tests
 
-  lorem impsum
+  lorem ipsum
 
   ## Questions
 
   Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
-  Please email questions or concerns about any part of this project to: gab@gmail.com.
+  Please email questions or concerns about any part of this project to: gab@gmail.
