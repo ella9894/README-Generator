@@ -1,7 +1,7 @@
 
   # README Generator
 
-  ## [(https://img.shields.io/badge/license-MIT-yellow.svg)]
+  ## (https://img.shields.io/badge/license-MIT-yellow)
 
   ## Description
 
