@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![license]https://img.shields.io/badge/license-${license}-yellow.svg)`;
+    return `![license](https://img.shields.io/badge/license-${license}-yellow.svg)`;
   }
    else {
      return '';
@@ -45,52 +45,52 @@ function generateMarkdown(data) {
   // const {title, description,license,...READ} = data;
 
   return `
-  #${data.title}
+  # ${data.title}
 
-  ##[${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+  ## [${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
 
-  ##Description
+  ## Description
 
   ${data.description}
 
-  ##Table of Contents
+  ## Table of Contents
 
-    *[Installation](#installation)
+    * [Installation](#installation)
 
-    *[Usage](#usage)
+    * [Usage](#usage)
 
-    *[License](#license)
+    * [License](#license)
 
-    *[Contributing](#contributing)
+    * [Contributing](#contributing)
 
-    *[Tests](#tests)
+    * [Tests](#tests)
 
-    *[Questions](#questions)
+    * [Questions](#questions)
 
-  ##Installation
+  ## Installation
 
   ${data.installation}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
-  ##License
+  ## License
 
   ${renderLicenseSection(data.license)}
 
-  ##Contributing
+  ## Contributing
 
   ${data.contributions}
 
-  ##Tests
+  ## Tests
 
   ${data.tests}
 
-  ##Questions
+  ## Questions
 
   Linked is the github account where this project can be found:[${data.github}](https://github.com/${data.github}).
-  Please email questions or concerns about any part of this project to:[(${data.email})].
+  Please email questions or concerns about any part of this project to:[${data.email}](${data.email}).
 `;
 };
  

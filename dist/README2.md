@@ -1,47 +1,47 @@
 
-  #README Generator
+  # README Generator
 
-  ##[![license]https://img.shields.io/badge/license-Mozilla Public License 2.0-yellow.svg)]((https://spdx.org/licenses/MPL-2.0.html))
+  ## [![license](https://img.shields.io/badge/license-ISC-yellow.svg)]((https://spdx.org/licenses/ISC.html))
 
-  ##Description
-
-  Lorem Ipsum
-
-  ##Table of Contents
-
-    *[Installation](#installation)
-
-    *[Usage](#usage)
-
-    *[License](#license)
-
-    *[Contributing](#contributing)
-
-    *[Tests](#tests)
-
-    *[Questions](#questions)
-
-  ##Installation
-
-  Lorem Ipsum
-
-  ##Usage
-
-  Lorem Ipsum
-
-  ##License
-
-  Licensed under the [Mozilla Public License 2.0]((https://spdx.org/licenses/MPL-2.0.html)) license.
-
-  ##Contributing
-
-  undefined
-
-  ##Tests
+  ## Description
 
   Lorem ipsum
 
-  ##Questions
+  ## Table of Contents
+
+    * [Installation](#installation)
+
+    * [Usage](#usage)
+
+    * [License](#license)
+
+    * [Contributing](#contributing)
+
+    * [Tests](#tests)
+
+    * [Questions](#questions)
+
+  ## Installation
+
+  lorem ipsum
+
+  ## Usage
+
+  lorem ipsum
+
+  ## License
+
+  Licensed under the [ISC]((https://spdx.org/licenses/ISC.html)) license.
+
+  ## Contributing
+
+  lorem ipsum
+
+  ## Tests
+
+  undefined
+
+  ## Questions
 
   Linked is the github account where this project can be found:[ella9894](https://github.com/ella9894).
-  Please email questions or concerns about any part of this project to:[(h@gmail.com)].
+  Please email questions or concerns about any part of this project to:[h@gmail.com](h@gmail.com).
