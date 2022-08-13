@@ -1,48 +1,47 @@
+# README Generator
 
-  # README Generator
+## [![license](https://img.shields.io/badge/license-Apache_License_2.0-yellow)](https://spdx.org/licenses/Apache-2.0.html)
 
-  ## [![license](https://img.shields.io/badge/license-Apache_License_2.0-yellow)](https://spdx.org/licenses/Apache-2.0.html)
+## Description
 
-  ## Description
+Lorem ipsum
 
-  Lorem ipsum
+## Table of Contents
 
-  ## Table of Contents
+[Installation](#Installation)
 
-  [Installation](#Installation)
+[Usage](#Usage)
 
-  [Usage](#Usage)
+[License](#License)
 
-  [License](#License)
+[Contributing](#Contributing)
 
-  [Contributing](#Contributing)
+[Tests](#Tests)
 
-  [Tests](#Tests)
+[Questions](#Questions)
 
-  [Questions](#Questions)
+## Installation
 
-  ## Installation
+Lorem ipsum
 
-  Lorem ipsum
+## Usage
 
-  ## Usage
+Lorem ipsum
 
-  Lorem ipsum
+## License
 
-  ## License
+Licensed under the [Apache_License_2.0](https://spdx.org/licenses/Apache-2.0.html) license.
 
-  Licensed under the [Apache_License_2.0](https://spdx.org/licenses/Apache-2.0.html) license.
+## Contributing
 
-  ## Contributing
+Lorem ipsum
 
-  Loremm
+## Tests
 
-  ## Tests
+Lorem ipsum
 
-  Lorem ipsum
+## Questions
 
-  ## Questions
+Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
 
-  Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
-  
-  Please email questions or concerns about any part of this project to: good@gmail.com.
+Please email questions or concerns about any part of this project to: example@gmail.com.
