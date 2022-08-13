@@ -75,7 +75,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${renderLicenseSection(license)}
+  ${renderLicenseSection(data.license)}
 
   ## Contributing
 
