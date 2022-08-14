@@ -27,7 +27,7 @@ This is a node application that uses the inquirer package to ask the user questi
 
 ## Usage
 
-This app can be used to automatically create a readme file for any project.
+This app can be used to automatically create a readme file for any project. [Here](./walkthrough%20video/screen-capture.webm) is a video explaining how the application works.
 
 ## License
 
