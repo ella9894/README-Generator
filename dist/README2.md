@@ -1,47 +1,48 @@
-# README Generator
 
-## [![license](https://img.shields.io/badge/license-Apache_License_2.0-yellow)](https://spdx.org/licenses/Apache-2.0.html)
+  # README-Generator
 
-## Description
+  ## [![license](https://img.shields.io/badge/license-Mozilla_Public_License_2.0-yellow)](https://spdx.org/licenses/MPL-2.0.html)
 
-Lorem ipsum
+  ## Description
 
-## Table of Contents
+  Lorem ipsum
 
-[Installation](#Installation)
+  ## Table of Contents
 
-[Usage](#Usage)
+  [Installation](#Installation)
 
-[License](#License)
+  [Usage](#Usage)
 
-[Contributing](#Contributing)
+  [License](#License)
 
-[Tests](#Tests)
+  [Contributing](#Contributing)
 
-[Questions](#Questions)
+  [Tests](#Tests)
 
-## Installation
+  [Questions](#Questions)
 
-Lorem ipsum
+  ## Installation
 
-## Usage
+  Lorem ipsum
 
-Lorem ipsum
+  ## Usage
 
-## License
+  Lorem ipsum
 
-Licensed under the [Apache_License_2.0](https://spdx.org/licenses/Apache-2.0.html) license.
+  ## License
 
-## Contributing
+  Licensed under the [Mozilla_Public_License_2.0](https://spdx.org/licenses/MPL-2.0.html) license.
 
-Lorem ipsum
+  ## Contributing
 
-## Tests
+  Lorem ipsum
 
-Lorem ipsum
+  ## Tests
 
-## Questions
+  Lorem ipsum
 
-Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
+  ## Questions
 
-Please email questions or concerns about any part of this project to: example@gmail.com.
+  Linked is the github account where this project can be found: [ella9894](https://github.com/ella9894).
+  
+  Please email questions or concerns about any part of this project to: example@gmail.com.
