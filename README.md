@@ -32,7 +32,6 @@ This app can be used to automatically create a readme file for any project. [Her
 ## Demo
 
 ![Backend Screenshot](./images/Backend%20screenshot.png)
-![Result Screenshot](./images/Result%20Screenshot.png)
 
 ## License
 
